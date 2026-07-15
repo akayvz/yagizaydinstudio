@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yağız Aydın Studio fotoğraf portfolyosu — tüm editorial, portre, ürün, spor ve sokak çekimleri.">
+  <meta name="theme-color" content="#e5e5e1">
+  <title>Portfolio — Yağız Aydın Studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body data-page="portfolio">
+  <a class="skip-link" href="#main-content">İçeriğe geç</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="Yağız Aydın Studio ana sayfa">
+      <span>YAĞIZ AYDIN</span>
+      <small>STUDİO</small>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+      <span class="sr-only">Menüyü aç</span>
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Ana menü" data-nav>
+      <a href="index.html">HOME</a>
+      <a href="portfolio.html" aria-current="page">PORTFOLIO</a>
+      <a href="projects.html">PROJECTS</a>
+      <a href="index.html#about">ABOUT</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-intro section-pad" aria-labelledby="page-title">
+      <p class="page-intro__index">Archive / <span data-total-count>64</span> frames</p>
+      <h1 id="page-title">PORTFOLIO</h1>
+      <div class="page-intro__bottom">
+        <p>Editorial, documentary, portrait, sport and still life.<br>One growing visual archive.</p>
+        <span class="page-intro__mark" aria-hidden="true">Y/A</span>
+      </div>
+    </section>
+
+    <section class="portfolio-section section-pad" id="portfolio-grid" aria-label="Fotoğraf galerisi">
+      <div class="gallery-toolbar">
+        <div class="filter-list" role="group" aria-label="Portfolyo filtreleri" data-filters>
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">ALL</button>
+        </div>
+        <p><span data-visible-count>64</span> FRAMES</p>
+      </div>
+      <div class="masonry-gallery" data-portfolio-gallery></div>
+      <noscript><p class="noscript-note">Galeriyi görüntülemek için JavaScript’i etkinleştirin.</p></noscript>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="index.html">
+      <span>YAĞIZ AYDIN</span>
+      <small>STUDİO</small>
+    </a>
+    <p>Editorial · Portrait · Product · Documentary</p>
+    <p>© <span data-year>2026</span> YAĞIZ AYDIN STUDİO</p>
+  </footer>
+</body>
+</html>
