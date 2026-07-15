@@ -11,17 +11,17 @@
   const page = document.body.dataset.page || "";
   const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const filterLabels = {
-    "horse-ranch-editorial-shoot": "Horse Ranch",
-    "cici-barber-editorial-shoot": "Cici Barber",
-    "shoemaker-ayakkabici-muharrem-editorial-shoot": "Shoemaker",
-    "football-match-shoot": "Football",
-    "product-shoots": "Product",
-    "view-shoots": "View"
+    "horse-ranch-editorial-shoot": "At Çiftliği",
+    "cici-barber-editorial-shoot": "Cici Berber",
+    "shoemaker-ayakkabici-muharrem-editorial-shoot": "Ayakkabıcı",
+    "football-match-shoot": "Futbol",
+    "product-shoots": "Ürün",
+    "view-shoots": "Sokak"
   };
   const altDescriptions = {
-    "horse-ranch-editorial-shoot": "Horse Ranch çiftlik editorial portre serisi",
-    "cici-barber-editorial-shoot": "Cici Barber berber dükkânı editorial serisi",
-    "shoemaker-ayakkabici-muharrem-editorial-shoot": "Ayakkabıcı Muharrem zanaat editorial serisi",
+    "horse-ranch-editorial-shoot": "Horse Ranch çiftlik editoryal portre serisi",
+    "cici-barber-editorial-shoot": "Cici Barber berber dükkânı editoryal serisi",
+    "shoemaker-ayakkabici-muharrem-editorial-shoot": "Ayakkabıcı Muharrem zanaat editoryal serisi",
     "football-match-shoot": "Futbol maçı fotoğraf serisi",
     "product-shoots": "Ürün ve takı çekimi serisi",
     "view-shoots": "Bursa sokak ve yaşam fotoğraf serisi"
@@ -278,7 +278,7 @@
     title.textContent = project.name;
 
     const count = document.createElement("small");
-    count.textContent = `${padNumber(project.images.length)} frames ↗`;
+    count.textContent = `${padNumber(project.images.length)} kare ↗`;
 
     meta.append(number, title, count);
     link.append(imageWrap, meta);
@@ -328,7 +328,7 @@
 
     const discover = document.createElement("span");
     discover.className = "project-card__discover";
-    discover.textContent = "DISCOVER";
+    discover.textContent = "KEŞFET";
 
     imageWrap.append(image, shade, number, discover);
 
@@ -339,7 +339,7 @@
     title.textContent = project.name;
 
     const detail = document.createElement("p");
-    detail.innerHTML = `${project.eyebrow}<br>${padNumber(project.images.length)} frames`;
+    detail.innerHTML = `${project.eyebrow}<br>${padNumber(project.images.length)} kare`;
 
     meta.append(title, detail);
     link.append(imageWrap, meta);
@@ -564,7 +564,7 @@
       image: data.portrait,
       slug: "studio-portrait",
       frame: 1,
-      label: "Yağız Aydın / Photographer",
+      label: "Yağız Aydın / Fotoğrafçı",
       alt: "Fotoğrafçı Yağız Aydın portresi",
       isPortrait: true
     });
@@ -640,13 +640,13 @@
     section.className = "project-error";
     const wrap = document.createElement("div");
     const title = document.createElement("h1");
-    title.textContent = "Project not found.";
+    title.textContent = "Proje bulunamadı.";
     const text = document.createElement("p");
     text.textContent = "Aradığınız seri bulunamadı veya bağlantı eksik.";
     const link = document.createElement("a");
     link.className = "button";
     link.href = "projects.html";
-    link.textContent = "BACK TO PROJECTS";
+    link.textContent = "PROJELERE DÖN";
     wrap.append(title, text, link);
     section.appendChild(wrap);
     main.appendChild(section);
@@ -709,7 +709,7 @@
       const link = document.createElement("a");
       link.href = projectUrl(nextProject.slug);
       const label = document.createElement("small");
-      label.textContent = "Next project";
+      label.textContent = "Sonraki proje";
       const title = document.createElement("strong");
       title.textContent = nextProject.name;
       const arrow = document.createElement("span");
@@ -763,13 +763,13 @@
         return;
       }
       if (prefersReducedMotion) {
-        toggle.textContent = "NEXT";
-        toggle.setAttribute("aria-label", "Sonraki hero fotoğrafı");
+        toggle.textContent = "SONRAKİ";
+        toggle.setAttribute("aria-label", "Sonraki ana görsel fotoğrafı");
         toggle.setAttribute("aria-pressed", "false");
         return;
       }
-      toggle.textContent = pausedByUser ? "PLAY" : "PAUSE";
-      toggle.setAttribute("aria-label", pausedByUser ? "Hero slaytını oynat" : "Hero slaytını duraklat");
+      toggle.textContent = pausedByUser ? "OYNAT" : "DURAKLAT";
+      toggle.setAttribute("aria-label", pausedByUser ? "Ana görsel slaytını oynat" : "Ana görsel slaytını duraklat");
       toggle.setAttribute("aria-pressed", String(pausedByUser));
     };
 
@@ -877,9 +877,9 @@
     const head = document.createElement("div");
     head.className = "floating-contacts__head";
     const headTitle = document.createElement("p");
-    headTitle.textContent = "Let’s connect";
+    headTitle.textContent = "İletişime geçelim";
     const headMeta = document.createElement("span");
-    headMeta.textContent = "BURSA / TR";
+    headMeta.textContent = "BURSA / TÜRKİYE";
     head.append(headTitle, headMeta);
 
     const links = document.createElement("div");
@@ -892,12 +892,12 @@
         external: true
       },
       {
-        label: "Phone",
+        label: "Telefon",
         value: "+90 530 979 45 50",
         href: "tel:+905309794550"
       },
       {
-        label: "E-mail",
+        label: "E-posta",
         value: "ismailyagizaydin@gmail.com",
         href: "mailto:ismailyagizaydin@gmail.com"
       }
@@ -925,7 +925,7 @@
     const pageLink = document.createElement("a");
     pageLink.className = "floating-contacts__page-link";
     pageLink.href = "contact.html";
-    pageLink.innerHTML = "<span>OPEN CONTACT PAGE</span><span aria-hidden=\"true\">↗</span>";
+    pageLink.innerHTML = "<span>İLETİŞİM SAYFASINI AÇ</span><span aria-hidden=\"true\">↗</span>";
 
     panel.append(head, links, pageLink);
 
@@ -935,7 +935,7 @@
     toggle.setAttribute("aria-expanded", "false");
     toggle.setAttribute("aria-controls", panel.id);
     toggle.setAttribute("aria-label", "İletişim seçeneklerini aç");
-    toggle.innerHTML = "<strong>CONTACTS</strong><span aria-hidden=\"true\">+</span>";
+    toggle.innerHTML = "<strong>İLETİŞİM</strong><span aria-hidden=\"true\">+</span>";
 
     container.append(panel, toggle);
     document.body.appendChild(container);

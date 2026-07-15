@@ -9,7 +9,7 @@ window.STUDIO_DATA = {
     {
       "name": "Horse Ranch Editorial Shoot",
       "slug": "horse-ranch-editorial-shoot",
-      "eyebrow": "Portrait / Editorial",
+      "eyebrow": "Portre / Editoryal",
       "cover": "assets/Horse Ranch Editorial Shoot/WhatsApp Image 2026-07-06 at 13.57.46.jpeg",
       "position": "50% 42%",
       "images": [
@@ -118,7 +118,7 @@ window.STUDIO_DATA = {
     {
       "name": "Cici Barber Editorial Shoot",
       "slug": "cici-barber-editorial-shoot",
-      "eyebrow": "Documentary / Editorial",
+      "eyebrow": "Belgesel / Editoryal",
       "cover": "assets/Cici Barber Editorial Shoot/Cici Barber - 30.04.2026📍Bursa - Yenişehir (İş Birliği İçin DM Üzerinden İletişime Geçiniz…)#st (1).jpg",
       "position": "32% 50%",
       "images": [
@@ -162,7 +162,7 @@ window.STUDIO_DATA = {
     {
       "name": "Shoemaker (Ayakkabıcı) Muharrem Editorial Shoot",
       "slug": "shoemaker-ayakkabici-muharrem-editorial-shoot",
-      "eyebrow": "Craft / Editorial",
+      "eyebrow": "Zanaat / Editoryal",
       "cover": "assets/Shoemaker (Ayakkabıcı) Muharrem Editorial Shoot/Shoemaker (Ayakkabıcı) Muharrem - 09.05.2026📍Bursa - Yenişehir(İş Birliği İçin DM Üzerinden İle (1).jpg",
       "position": "54% 50%",
       "images": [
@@ -221,7 +221,7 @@ window.STUDIO_DATA = {
     {
       "name": "Football Match Shoot",
       "slug": "football-match-shoot",
-      "eyebrow": "Sport / Documentary",
+      "eyebrow": "Spor / Belgesel",
       "cover": "assets/Football Match Shoot/Söylemiş Başak Spor Maçından Kareler (Süper Amatör Lige Yükselen Takımımızı Kutlarım) 📍 Bursa -.jpg",
       "position": "50% 48%",
       "images": [
@@ -275,7 +275,7 @@ window.STUDIO_DATA = {
     {
       "name": "Product Shoots",
       "slug": "product-shoots",
-      "eyebrow": "Still Life / Commercial",
+      "eyebrow": "Natürmort / Ticari",
       "cover": "assets/Product Shoots/silver 📍Ürün , Takı, Kozmetik Çekimi(İş Birliği İçin DM Üzerinden İletişime Geçiniz…)#gümüştakı.jpg",
       "position": "50% 50%",
       "images": [
@@ -339,7 +339,7 @@ window.STUDIO_DATA = {
     {
       "name": "View Shoots",
       "slug": "view-shoots",
-      "eyebrow": "Street / Observation",
+      "eyebrow": "Sokak / Gözlem",
       "cover": "assets/View Shoots/In a world that never stops scrolling, some stories are still worth reading.📍Bursa - Osmangazi(.jpg",
       "position": "50% 50%",
       "images": [
@@ -377,4 +377,3 @@ window.STUDIO_DATA = {
     }
   ]
 };
-
