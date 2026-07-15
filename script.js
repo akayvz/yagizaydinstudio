@@ -485,9 +485,6 @@
     const figure = document.createElement("figure");
     figure.className = "gallery-item";
     figure.dataset.category = entry.slug;
-    if (entry.isPortrait) {
-      figure.classList.add("gallery-item--portrait");
-    }
 
     const button = document.createElement("button");
     button.className = "gallery-item__button";
@@ -558,16 +555,6 @@
         });
       });
     }
-
-    entries.splice(6, 0, {
-      project: null,
-      image: data.portrait,
-      slug: "studio-portrait",
-      frame: 1,
-      label: "Yağız Aydın / Fotoğrafçı",
-      alt: "Fotoğrafçı Yağız Aydın portresi",
-      isPortrait: true
-    });
 
     return entries;
   }

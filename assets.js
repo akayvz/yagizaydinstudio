@@ -1,10 +1,5 @@
 /* Generated from the supplied assets. Keep paths and letter casing unchanged. */
 window.STUDIO_DATA = {
-  "portrait": {
-    "path": "assets/YağızAydın.jpg",
-    "width": 150,
-    "height": 150
-  },
   "projects": [
     {
       "name": "Horse Ranch Editorial Shoot",
