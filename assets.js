@@ -369,6 +369,99 @@ window.STUDIO_DATA = {
           "height": 845
         }
       ]
+    },
+    {
+      "name": "You've been living in a dream world, Neo",
+      "slug": "youve-been-living-in-a-dream-world-neo",
+      "eyebrow": "Moda / Editoryal",
+      "cover": "assets/You've been living in a dream world, Neo/WhatsApp Image 2026-08-18 at 23.00.45 (5).jpeg",
+      "position": "50% 44%",
+      "images": [
+        {
+          "path": "assets/You've been living in a dream world, Neo/WhatsApp Image 2026-08-18 at 23.00.44 (1).jpeg",
+          "width": 1366,
+          "height": 2048
+        },
+        {
+          "path": "assets/You've been living in a dream world, Neo/WhatsApp Image 2026-08-18 at 23.00.44 (2).jpeg",
+          "width": 1366,
+          "height": 2048
+        },
+        {
+          "path": "assets/You've been living in a dream world, Neo/WhatsApp Image 2026-08-18 at 23.00.44 (3).jpeg",
+          "width": 1366,
+          "height": 2048
+        },
+        {
+          "path": "assets/You've been living in a dream world, Neo/WhatsApp Image 2026-08-18 at 23.00.44.jpeg",
+          "width": 1366,
+          "height": 2048
+        },
+        {
+          "path": "assets/You've been living in a dream world, Neo/WhatsApp Image 2026-08-18 at 23.00.45 (1).jpeg",
+          "width": 1366,
+          "height": 2048
+        },
+        {
+          "path": "assets/You've been living in a dream world, Neo/WhatsApp Image 2026-08-18 at 23.00.45 (2).jpeg",
+          "width": 1366,
+          "height": 2048
+        },
+        {
+          "path": "assets/You've been living in a dream world, Neo/WhatsApp Image 2026-08-18 at 23.00.45 (3).jpeg",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "assets/You've been living in a dream world, Neo/WhatsApp Image 2026-08-18 at 23.00.45 (4).jpeg",
+          "width": 1366,
+          "height": 2048
+        },
+        {
+          "path": "assets/You've been living in a dream world, Neo/WhatsApp Image 2026-08-18 at 23.00.45 (5).jpeg",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "assets/You've been living in a dream world, Neo/WhatsApp Image 2026-08-18 at 23.00.45.jpeg",
+          "width": 1366,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "name": "Absolute Cinema",
+      "slug": "absolute-cinema",
+      "eyebrow": "Portre / Editoryal",
+      "cover": "assets/Absolute Cinema/WhatsApp Image 2026-08-18 at 22.53.59 (1).jpeg",
+      "position": "58% 52%",
+      "images": [
+        {
+          "path": "assets/Absolute Cinema/WhatsApp Image 2026-08-18 at 22.53.58.jpeg",
+          "width": 1148,
+          "height": 1600
+        },
+        {
+          "path": "assets/Absolute Cinema/WhatsApp Image 2026-08-18 at 22.53.59 (1).jpeg",
+          "width": 1600,
+          "height": 1600
+        },
+        {
+          "path": "assets/Absolute Cinema/WhatsApp Image 2026-08-18 at 22.53.59.jpeg",
+          "width": 1066,
+          "height": 1600
+        },
+        {
+          "path": "assets/Absolute Cinema/WhatsApp Image 2026-08-18 at 22.54.00 (1).jpeg",
+          "width": 1066,
+          "height": 1600
+        },
+        {
+          "path": "assets/Absolute Cinema/WhatsApp Image 2026-08-18 at 22.54.00.jpeg",
+          "width": 1200,
+          "height": 1600
+        }
+      ]
     }
   ]
 };

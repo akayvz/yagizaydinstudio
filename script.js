@@ -16,7 +16,9 @@
     "shoemaker-ayakkabici-muharrem-editorial-shoot": "Ayakkabıcı",
     "football-match-shoot": "Futbol",
     "product-shoots": "Ürün",
-    "view-shoots": "Sokak"
+    "view-shoots": "Sokak",
+    "youve-been-living-in-a-dream-world-neo": "Neo",
+    "absolute-cinema": "Absolute Cinema"
   };
   const altDescriptions = {
     "horse-ranch-editorial-shoot": "Horse Ranch çiftlik editoryal portre serisi",
@@ -24,7 +26,9 @@
     "shoemaker-ayakkabici-muharrem-editorial-shoot": "Ayakkabıcı Muharrem zanaat editoryal serisi",
     "football-match-shoot": "Futbol maçı fotoğraf serisi",
     "product-shoots": "Ürün ve takı çekimi serisi",
-    "view-shoots": "Bursa sokak ve yaşam fotoğraf serisi"
+    "view-shoots": "Bursa sokak ve yaşam fotoğraf serisi",
+    "youve-been-living-in-a-dream-world-neo": "You've been living in a dream world, Neo gece moda portresi serisi",
+    "absolute-cinema": "Absolute Cinema siyah-beyaz editoryal portre serisi"
   };
   const galleryPreviews = {
     "assets/Horse Ranch Editorial Shoot/akay1.JPG": {
